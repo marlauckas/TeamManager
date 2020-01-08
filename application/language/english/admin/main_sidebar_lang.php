@@ -18,7 +18,8 @@ $lang['menu_search'] = 'Search';
 
 /* * */$lang['menu_main_navigation']            = 'Main Navigation';
 /* ****** */$lang['menu_dashboard']             = 'Dashboard';
-
+/* ****** */$lang['menu_members']               = 'Members';
+/* ****** */$lang['menu_scouting']              = 'Scouting';
 
 /* * */$lang['menu_administration']             = 'Administration';
 /* ****** */$lang['menu_users']                 = 'Users';

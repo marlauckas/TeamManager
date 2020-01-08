@@ -44,7 +44,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <i class="fa fa-dashboard"></i> <span><?php echo lang('menu_dashboard'); ?></span>
                             </a>
                         </li>
-
+                        <li class="<?=active_link_controller('members')?>">
+                            <a href="<?php echo site_url('admin/members'); ?>">
+                                <i class="fa fa-users"></i> <span><?php echo lang('menu_members'); ?></span>
+                            </a>
+                        </li>
+                        <li class="<?=active_link_controller('scouting')?>">
+                            <a href="<?php echo site_url('admin/scouting'); ?>">
+                                <i class="fa fa-binoculars"></i> <span><?php echo lang('menu_scouting'); ?></span>
+                            </a>
+                        </li>
 
                         <li class="header text-uppercase"><?php echo lang('menu_administration'); ?></li>
                         <li class="<?=active_link_controller('users')?>">
